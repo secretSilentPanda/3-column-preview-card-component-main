@@ -1,6 +1,7 @@
 # Frontend Mentor - 3-column preview card component solution
 
 Hi.. I have worked a bit on this. Please give your feedback. Thanks a lot!
+
 Btw, the body element has a padding-top of 1px. Without this, the body collapses and the background linear gradient will not be visible. Any help would be greatly appreciated
 
 ## Table of contents
