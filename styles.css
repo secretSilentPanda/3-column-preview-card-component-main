@@ -93,6 +93,7 @@ span.animate {
 
 .card__button:hover {
   background-color: transparent;
+  cursor: pointer;
   color: white;
 }
 
