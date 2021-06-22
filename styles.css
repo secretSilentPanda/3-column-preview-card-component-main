@@ -5,11 +5,6 @@
 }
 
 html {
-  height: 100%;
-}
-
-body {
-  height: 100%;
   background: linear-gradient(
     to bottom,
     rgba(104, 98, 98, 0.466),
@@ -19,7 +14,7 @@ body {
 
 .container {
   margin: 2em 1em;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .card {
@@ -80,6 +75,7 @@ span.animate {
   font-size: 0.8em;
   line-height: 2;
   padding-right: 3em;
+  padding-bottom: 2em;
 }
 
 .card__button {
@@ -97,7 +93,11 @@ span.animate {
   color: white;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 650px) {
+  html {
+    min-height: 100%;
+  }
+
   main {
     display: flex;
     align-items: center;
