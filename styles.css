@@ -140,7 +140,7 @@ span.animate {
     }
   }
 
-  @media (min-width: 1000px) {
+  @media (min-width: 1100px) {
     main {
       width: 62%;
     }
